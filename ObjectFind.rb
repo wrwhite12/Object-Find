@@ -7,10 +7,11 @@ include CenterSearch
 qr = Magick::QuantumRange / 1.0 # Convert to float
 
 # Directory where screenshots are placed.
-$scrots = "#{Dir.home}/documents/screenshots" # '$'=global
+$scrots = "#{Dir.home}/documents/screenshots/" # '$'=global
 
-# Director where filtered screenshots are dumped.
-$dump = "#{Dir.home}/documents/dump"
+# Directory where filtered screenshots are dumped.
+$dump = "#{Dir.home}/documents/dump/"
+
 # Set some parameters.
 $crop_width  = 640
 $crop_height = 480
