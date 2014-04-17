@@ -1,7 +1,7 @@
 Object-Find
 ===========
 
-CV project to find objects of interest from screenshots.
+CV project to find objects of interest from screenshots written in Ruby
 
 Installation
 ------------
